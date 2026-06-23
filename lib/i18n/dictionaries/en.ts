@@ -262,6 +262,17 @@ export const en: Dictionary = {
     copyright: "All rights reserved.",
     legal:
       "RC: 152895 · ICE: 00356224500026 · Tourist transport license N° 2674/TOUR/2024",
+    contactForm: {
+      title: "Send us a message",
+      description: "Describe your trip, we'll get back to you quickly.",
+      nameLabel: "Name",
+      emailLabel: "Email",
+      namePlaceholder: "Your name",
+      emailPlaceholder: "Your email",
+      messagePlaceholder: "Your message (dates, destinations, group size…)",
+      submit: "Send by email",
+      subjectPrefix: "Trip request",
+    },
   },
   cookies: {
     message:

@@ -124,6 +124,17 @@ export type Dictionary = {
     certified: string;
     copyright: string;
     legal: string;
+    contactForm: {
+      title: string;
+      description: string;
+      nameLabel: string;
+      emailLabel: string;
+      namePlaceholder: string;
+      emailPlaceholder: string;
+      messagePlaceholder: string;
+      submit: string;
+      subjectPrefix: string;
+    };
   };
   cookies: {
     message: string;

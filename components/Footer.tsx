@@ -15,6 +15,7 @@ import { siteConfig, getWhatsAppUrl, navLinkIds } from "@/lib/catalog";
 import { useDictionary } from "@/lib/i18n/locale-context";
 import { ArabicCalligraphy } from "@/components/ArabicCalligraphy";
 import { Logo } from "@/components/Logo";
+import { ContactForm } from "@/components/ContactForm";
 
 export function Footer() {
   const dict = useDictionary();
@@ -29,31 +30,38 @@ export function Footer() {
     <footer id="contact" className="bg-burgundy-dark text-white">
       <div className="section-padding pb-8">
         <div className="container-wide">
-          <div className="relative mb-16 overflow-hidden border-2 border-gold/30 bg-burgundy p-10 text-center sm:p-14">
+          <div className="relative mb-16 overflow-hidden border-2 border-gold/30 bg-burgundy p-10 sm:p-14">
             <div className="absolute left-0 top-0 h-1 w-full bg-gold-gradient" />
-            <ArabicCalligraphy
-              phrase="welcome"
-              variant="footer"
-              className="mb-2 block"
-            />
-            <h2 className="font-display text-3xl font-bold sm:text-4xl">
-              {t.ctaTitle}
-            </h2>
-            <div className="ornament-divider" />
-            <p className="text-sand-200/80">{t.ctaDescription}</p>
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <Link
-                href={getWhatsAppUrl(dict.common.whatsappMessage)}
-                className="border-2 border-gold bg-gold px-8 py-4 font-semibold text-burgundy-dark transition hover:bg-gold-light"
-              >
-                {t.customTrip}
-              </Link>
-              <a
-                href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                className="border-2 border-gold/40 px-8 py-4 font-semibold transition hover:border-gold hover:bg-gold/10"
-              >
-                {siteConfig.phone}
-              </a>
+            <div className="text-center">
+              <ArabicCalligraphy
+                phrase="welcome"
+                variant="footer"
+                className="mb-2 block"
+              />
+              <h2 className="font-display text-3xl font-bold sm:text-4xl">
+                {t.ctaTitle}
+              </h2>
+              <div className="ornament-divider" />
+              <p className="text-sand-200/80">{t.ctaDescription}</p>
+            </div>
+            <div className="mt-8 grid items-start gap-10 lg:grid-cols-2 lg:gap-12">
+              <div className="flex flex-col items-center justify-center gap-4 lg:items-start">
+                <Link
+                  href={getWhatsAppUrl(dict.common.whatsappMessage)}
+                  className="border-2 border-gold bg-gold px-8 py-4 font-semibold text-burgundy-dark transition hover:bg-gold-light"
+                >
+                  {t.customTrip}
+                </Link>
+                <a
+                  href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
+                  className="border-2 border-gold/40 px-8 py-4 font-semibold transition hover:border-gold hover:bg-gold/10"
+                >
+                  {siteConfig.phone}
+                </a>
+              </div>
+              <div className="flex justify-center lg:justify-end">
+                <ContactForm />
+              </div>
             </div>
           </div>
 
