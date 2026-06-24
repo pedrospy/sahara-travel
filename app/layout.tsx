@@ -15,7 +15,7 @@ const sans = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Atlas Routes & Transfer",
+  title: "Atlas Tours",
   description: "Circuits & transferts privés au Maroc",
 };
 

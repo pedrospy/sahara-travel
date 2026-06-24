@@ -6,7 +6,7 @@ export const decorativePhrases = {
     text: "Welcome",
   },
   saharaTravel: {
-    text: "Atlas Routes & Transfer",
+    text: "Atlas Tours",
   },
   authenticJourney: {
     text: "Authentic Journey",

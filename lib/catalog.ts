@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Atlas Routes & Transfer",
-  whatsappName: "Atlas Routes & Transfer",
+  name: "Atlas Tours",
+  whatsappName: "Atlas Tours",
   phone: "+212634411760",
   whatsapp: "212634411760",
-  email: "contact@atlasroutes.ma",
+  email: "contact@atlastours.ma",
   googleRating: 4.9,
   reviewCount: 36,
   travelers: 300,

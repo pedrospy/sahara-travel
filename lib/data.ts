@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Atlas Routes & Transfer",
+  name: "Atlas Tours",
   tagline: "Circuits & transferts privés au Maroc",
   phone: "+212634411760",
   whatsapp: "212634411760",
-  email: "contact@atlasroutes.ma",
+  email: "contact@atlastours.ma",
   address: "Marrakech, Maroc",
   googleRating: 4.9,
   reviewCount: 36,

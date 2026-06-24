@@ -3,7 +3,7 @@ import type { Dictionary } from "../types";
 export const fr: Dictionary = {
   locale: "fr",
   meta: {
-    title: "Circuits & transferts au Maroc | Atlas Routes & Transfer",
+    title: "Circuits & transferts au Maroc | Atlas Tours",
     description:
       "Transferts aéroport, excursions et circuits privés au Maroc. Véhicules récents, chauffeurs locaux, voyages sur mesure de Marrakech au Sahara.",
     keywords: [
@@ -14,7 +14,7 @@ export const fr: Dictionary = {
       "Marrakech",
       "excursions",
     ],
-    ogTitle: "Atlas Routes & Transfer — Circuits et transferts au Maroc",
+    ogTitle: "Atlas Tours — Circuits et transferts au Maroc",
     ogDescription:
       "Transferts aéroport, excursions et circuits privés au Maroc avec chauffeurs locaux.",
   },
@@ -38,9 +38,9 @@ export const fr: Dictionary = {
     perPerson: "/pers.",
     menu: "Menu",
     discover: "Découvrir",
-    whatsapp: "Atlas Routes & Transfer",
-    whatsappAria: "Contacter Atlas Routes & Transfer via WhatsApp",
-    whatsappMessage: "Bonjour Atlas Routes & Transfer, ",
+    whatsapp: "Atlas Tours",
+    whatsappAria: "Contacter Atlas Tours via WhatsApp",
+    whatsappMessage: "Bonjour Atlas Tours, ",
     excursionsCount: "excursions",
     close: "Fermer",
   },

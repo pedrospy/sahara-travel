@@ -3,7 +3,7 @@ import type { Dictionary } from "../types";
 export const en: Dictionary = {
   locale: "en",
   meta: {
-    title: "Tours & Transfers in Morocco | Atlas Routes & Transfer",
+    title: "Tours & Transfers in Morocco | Atlas Tours",
     description:
       "Airport transfers, day trips and private tours in Morocco. Modern vehicles, local drivers, tailor-made journeys from Marrakech to the Sahara.",
     keywords: [
@@ -14,7 +14,7 @@ export const en: Dictionary = {
       "Marrakech",
       "day trips",
     ],
-    ogTitle: "Atlas Routes & Transfer — Tours and transfers in Morocco",
+    ogTitle: "Atlas Tours — Tours and transfers in Morocco",
     ogDescription:
       "Airport transfers, excursions and private tours in Morocco with local drivers.",
   },
@@ -38,9 +38,9 @@ export const en: Dictionary = {
     perPerson: "/person",
     menu: "Menu",
     discover: "Discover",
-    whatsapp: "Atlas Routes & Transfer",
-    whatsappAria: "Contact Atlas Routes & Transfer via WhatsApp",
-    whatsappMessage: "Hello Atlas Routes & Transfer, ",
+    whatsapp: "Atlas Tours",
+    whatsappAria: "Contact Atlas Tours via WhatsApp",
+    whatsappMessage: "Hello Atlas Tours, ",
     excursionsCount: "trips",
     close: "Close",
   },
