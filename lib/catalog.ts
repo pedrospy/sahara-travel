@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Atlas Tours",
-  whatsappName: "Atlas Tours",
+  name: "Red Nomad",
+  whatsappName: "Red Nomad",
   phone: "+212634411760",
   whatsapp: "212634411760",
-  email: "contact@atlastours.ma",
+  email: "contact@rednomad.ma",
   googleRating: 4.9,
   reviewCount: 36,
   travelers: 300,

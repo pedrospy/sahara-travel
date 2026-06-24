@@ -15,8 +15,8 @@ const sans = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Atlas Tours",
-  description: "Circuits & transferts privés au Maroc",
+  title: "Red Nomad",
+  description: "Transferts aéroport · Excursions · Circuits privés au Maroc",
 };
 
 export default function RootLayout({

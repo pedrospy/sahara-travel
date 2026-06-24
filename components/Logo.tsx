@@ -12,7 +12,7 @@ export function Logo({ size = 44, className = "", priority = false }: LogoProps)
   return (
     <Image
       src="/logo.png"
-      alt="Atlas Tours"
+      alt="Red Nomad"
       width={size}
       height={size}
       className={`shrink-0 rounded-sm ${className}`}

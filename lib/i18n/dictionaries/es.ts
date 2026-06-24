@@ -3,7 +3,7 @@ import type { Dictionary } from "../types";
 export const es: Dictionary = {
   locale: "es",
   meta: {
-    title: "Circuitos y traslados en Marruecos | Atlas Tours",
+    title: "Traslados aeropuerto y circuitos | Red Nomad",
     description:
       "Traslados al aeropuerto, excursiones y circuitos privados en Marruecos. Vehículos modernos, conductores locales, viajes a medida de Marrakech al Sahara.",
     keywords: [
@@ -14,12 +14,12 @@ export const es: Dictionary = {
       "Marrakech",
       "excursiones",
     ],
-    ogTitle: "Atlas Tours — Circuitos y traslados en Marruecos",
+    ogTitle: "Red Nomad — Traslados al aeropuerto, excursiones y circuitos en Marruecos",
     ogDescription:
       "Traslados al aeropuerto, excursiones y circuitos privados en Marruecos con conductores locales.",
   },
   site: {
-    tagline: "Circuitos y traslados privados en Marruecos",
+    tagline: "Traslados aeropuerto · Excursiones · Circuitos privados en Marruecos",
     address: "Marrakech, Marruecos",
   },
   nav: {
@@ -38,9 +38,9 @@ export const es: Dictionary = {
     perPerson: "/pers.",
     menu: "Menú",
     discover: "Descubrir",
-    whatsapp: "Atlas Tours",
-    whatsappAria: "Contactar Atlas Tours por WhatsApp",
-    whatsappMessage: "Hola Atlas Tours, ",
+    whatsapp: "Red Nomad",
+    whatsappAria: "Contactar Red Nomad por WhatsApp",
+    whatsappMessage: "Hola Red Nomad, ",
     excursionsCount: "excursiones",
     close: "Cerrar",
   },

@@ -3,7 +3,7 @@ import type { Dictionary } from "../types";
 export const en: Dictionary = {
   locale: "en",
   meta: {
-    title: "Tours & Transfers in Morocco | Atlas Tours",
+    title: "Airport transfers & tours | Red Nomad",
     description:
       "Airport transfers, day trips and private tours in Morocco. Modern vehicles, local drivers, tailor-made journeys from Marrakech to the Sahara.",
     keywords: [
@@ -14,12 +14,12 @@ export const en: Dictionary = {
       "Marrakech",
       "day trips",
     ],
-    ogTitle: "Atlas Tours — Tours and transfers in Morocco",
+    ogTitle: "Red Nomad — Airport transfers, day trips and private tours in Morocco",
     ogDescription:
       "Airport transfers, excursions and private tours in Morocco with local drivers.",
   },
   site: {
-    tagline: "Private tours & transfers in Morocco",
+    tagline: "Airport transfers · Day trips · Private tours in Morocco",
     address: "Marrakech, Morocco",
   },
   nav: {
@@ -38,9 +38,9 @@ export const en: Dictionary = {
     perPerson: "/person",
     menu: "Menu",
     discover: "Discover",
-    whatsapp: "Atlas Tours",
-    whatsappAria: "Contact Atlas Tours via WhatsApp",
-    whatsappMessage: "Hello Atlas Tours, ",
+    whatsapp: "Red Nomad",
+    whatsappAria: "Contact Red Nomad via WhatsApp",
+    whatsappMessage: "Hello Red Nomad, ",
     excursionsCount: "trips",
     close: "Close",
   },

@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Atlas Tours",
-  tagline: "Circuits & transferts privés au Maroc",
+  name: "Red Nomad",
+  tagline: "Transferts aéroport · Excursions · Circuits privés au Maroc",
   phone: "+212634411760",
   whatsapp: "212634411760",
-  email: "contact@atlastours.ma",
+  email: "contact@rednomad.ma",
   address: "Marrakech, Maroc",
   googleRating: 4.9,
   reviewCount: 36,
