@@ -178,7 +178,7 @@ export const de: Dictionary = {
         title: "Ourika-Tal",
         badge: "Natur",
         description:
-          "Berberdörfer, Wasserfall Setti Fatma, authentischer Markt im Hohen Atlas.",
+          "Privater Ausflug: Setti-Fatma-Wasserfälle, Argan-Kooperative, traditionelles Mittagessen am Fluss.",
       },
     },
   },

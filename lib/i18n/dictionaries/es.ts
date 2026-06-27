@@ -178,7 +178,7 @@ export const es: Dictionary = {
         title: "Valle de Ourika",
         badge: "Naturaleza",
         description:
-          "Pueblos bereberes, cascada Setti Fatma, mercado auténtico en el corazón del Alto Atlas.",
+          "Excursión privada: cascadas Setti Fatma, cooperativa de argán, almuerzo tradicional junto al río.",
       },
     },
   },

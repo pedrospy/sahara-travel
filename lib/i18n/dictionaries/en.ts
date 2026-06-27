@@ -178,7 +178,7 @@ export const en: Dictionary = {
         title: "Ourika Valley",
         badge: "Nature",
         description:
-          "Berber villages, Setti Fatma waterfall, authentic market in the High Atlas.",
+          "Private trip: Setti Fatma waterfalls, argan cooperative, traditional riverside lunch.",
       },
     },
   },

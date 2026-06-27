@@ -178,7 +178,7 @@ export const fr: Dictionary = {
         title: "Vallée de l'Ourika",
         badge: "Nature",
         description:
-          "Villages berbères, cascade Setti Fatma, marché authentique au cœur du Haut Atlas.",
+          "Excursion privée : cascades Setti Fatma, coopérative d'argan, déjeuner traditionnel au bord de la rivière.",
       },
     },
   },
