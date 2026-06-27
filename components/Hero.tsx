@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
       <Image
-        src="/images/route-mountain-pass.png"
+        src="/images/dest-marrakech-jemaa.jpg"
         alt={t.imageAlt}
         fill
         priority

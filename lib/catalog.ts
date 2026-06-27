@@ -22,8 +22,7 @@ export const circuitsCatalog = [
     rating: 4.9,
     reviews: 56,
     price: 1290,
-    image:
-      "/images/dest-desert-oasis.png",
+    image: "/images/dest-marrakech-medina.jpg",
   },
   {
     id: "grand-tour-17",
@@ -37,14 +36,14 @@ export const circuitsCatalog = [
     rating: 4.9,
     reviews: 142,
     price: 380,
-    image: "/images/fleet-van-desert.png",
+    image: "/images/dest-sunset-horses.png",
   },
   {
     id: "megdaz-3j",
     rating: 4.9,
     reviews: 31,
     price: 420,
-    image: "/images/dest-dades-gorges.png",
+    image: "/images/route-dades-gorges.png",
   },
 ] as const;
 
@@ -75,7 +74,7 @@ export const excursionsCatalog = [
     rating: 4.8,
     reviews: 134,
     price: 72,
-    image: "/images/route-dades-gorges.png",
+    image: "/images/dest-dades-gorges.png",
   },
 ] as const;
 
@@ -83,12 +82,12 @@ export const transfersCatalog = [
   {
     id: "airport",
     price: 25,
-    image: "/images/route-atlas-highway.png",
+    image: "/images/transfer-marrakech-airport.jpg",
   },
   {
     id: "city",
     price: 20,
-    image: "/images/fleet-suv-kasbah.png",
+    image: "/images/dest-marrakech-souk.jpg",
   },
   {
     id: "intercity",
@@ -132,12 +131,12 @@ export const destinationsCatalog = [
   {
     id: "marrakech",
     count: 20,
-    image: "/images/fleet-suv-kasbah.png",
+    image: "/images/dest-marrakech-jemaa.jpg",
   },
   {
     id: "merzouga",
     count: 6,
-    image: "/images/dest-desert-oasis.png",
+    image: "/images/fleet-van-desert.png",
   },
   {
     id: "nord-maroc",
@@ -157,7 +156,7 @@ export const destinationsCatalog = [
   {
     id: "megdaz",
     count: 3,
-    image: "/images/dest-dades-gorges.png",
+    image: "/images/route-dades-gorges.png",
   },
   {
     id: "agadir",
