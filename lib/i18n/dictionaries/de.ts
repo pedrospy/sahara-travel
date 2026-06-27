@@ -27,7 +27,7 @@ export const de: Dictionary = {
     excursions: { label: "Tagesausflüge", href: "#excursions" },
     circuits: { label: "Rundreisen", href: "#circuits" },
     activities: { label: "Aktivitäten", href: "#activites" },
-    transfers: { label: "Transfers", href: "#contact" },
+    transfers: { label: "Transfers", href: "#transferts" },
     discover: { label: "Entdecken", href: "#pourquoi" },
   },
   common: {
@@ -62,6 +62,55 @@ export const de: Dictionary = {
     rated: "Bewertet mit 4,9/5",
     confirmation: "Bestätigung innerhalb von 2 Stunden",
     documents: "Unterlagen innerhalb von 24 Std.",
+  },
+  transfers: {
+    eyebrow: "Touristentransport",
+    title: "Private Transfers & Chauffeur",
+    description:
+      "Moderne klimatisierte Fahrzeuge mit französischsprachigen lokalen Fahrern. Flughafen-Abholung, Stadttransfers und Fernfahrten in ganz Marokko.",
+    viewAll: "Angebot anfordern",
+    cta: "Transfer buchen",
+    galleryTitle: "Unsere Flotte & Routen in Marokko",
+    items: {
+      airport: {
+        title: "Flughafentransfer Marrakesch",
+        badge: "Persönliche Abholung",
+        description:
+          "Abholung am Flughafen Menara, Namensschild, Flugverfolgung, Kindersitze auf Anfrage.",
+      },
+      city: {
+        title: "Privater Stadttransfer",
+        badge: "Riad & Hotel",
+        description:
+          "Fahrten in Marrakesch: Medina, Hotels, Bahnhof, Restaurants. Privatfahrzeug mit Chauffeur stunden- oder tageweise.",
+      },
+      intercity: {
+        title: "Stadtübergreifende Fahrten",
+        badge: "Langstrecke",
+        description:
+          "Marrakesch ↔ Casablanca, Fès, Essaouira, Agadir, Ouarzazate. Komfort, Kaffeepausen, flexible Route.",
+      },
+      group: {
+        title: "Van & Minibus für Gruppen",
+        badge: "Familien & Gruppen",
+        description:
+          "7-Sitzer-Minivan oder Minibus für Familien, Seminare und Gruppen. Ideal für private Touren und Ausflüge.",
+      },
+    },
+    gallery: {
+      "van-desert": "Luxus-Van in der Wüste",
+      "vans-tunnel": "Minibus auf Bergstraßen",
+      "suv-kasbah": "4×4 SUV vor einer Kasbah",
+      "atlas-highway": "Atlas-Straße aus dem Fahrzeug",
+      "mountain-pass": "Kurvenreiche Straße im Hohen Atlas",
+      "dades-gorges": "Dades-Schlucht mit Minibus",
+      ouzoud: "Ausflug zu den Ouzoud-Wasserfällen",
+      essaouira: "Transfer nach Essaouira",
+      volubilis: "Volubilis-Tour",
+      "desert-oasis": "Sahara-Oase",
+      "fes-tannery": "Transfer nach Fès",
+      sunset: "Sonnenuntergang in Marokko",
+    },
   },
   circuits: {
     eyebrow: "Mehrtägige Rundreisen",

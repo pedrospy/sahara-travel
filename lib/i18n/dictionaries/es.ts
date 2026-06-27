@@ -27,7 +27,7 @@ export const es: Dictionary = {
     excursions: { label: "Excursiones", href: "#excursions" },
     circuits: { label: "Circuitos", href: "#circuits" },
     activities: { label: "Actividades", href: "#activites" },
-    transfers: { label: "Traslados", href: "#contact" },
+    transfers: { label: "Traslados", href: "#transferts" },
     discover: { label: "Descubrir", href: "#pourquoi" },
   },
   common: {
@@ -62,6 +62,55 @@ export const es: Dictionary = {
     rated: "Valorado 4.9/5",
     confirmation: "Confirmación en 2 horas",
     documents: "Documentos en 24 h",
+  },
+  transfers: {
+    eyebrow: "Transporte turístico",
+    title: "Traslados privados y chófer",
+    description:
+      "Vehículos modernos con aire acondicionado y chófer local de habla francesa. Recogida en aeropuerto, traslados urbanos y viajes de larga distancia en Marruecos.",
+    viewAll: "Solicitar presupuesto",
+    cta: "Reservar un traslado",
+    galleryTitle: "Nuestra flota y rutas en Marruecos",
+    items: {
+      airport: {
+        title: "Traslado aeropuerto Marrakech",
+        badge: "Recepción personalizada",
+        description:
+          "Recogida en el aeropuerto Menara, cartel con nombre, seguimiento de vuelo, sillas de bebé bajo petición.",
+      },
+      city: {
+        title: "Traslado privado en ciudad",
+        badge: "Riad y hotel",
+        description:
+          "Desplazamientos en Marrakech: medina, hoteles, estación, restaurantes. Vehículo privado con chófer por horas o día.",
+      },
+      intercity: {
+        title: "Viajes interurbanos",
+        badge: "Larga distancia",
+        description:
+          "Marrakech ↔ Casablanca, Fez, Essaouira, Agadir, Ouarzazate. Confort, pausas café, ruta flexible.",
+      },
+      group: {
+        title: "Van y minibus para grupos",
+        badge: "Familias y grupos",
+        description:
+          "Minivan de 7 plazas o minibus para familias, seminarios y grupos. Ideal para circuitos y excursiones privadas.",
+      },
+    },
+    gallery: {
+      "van-desert": "Van de lujo en el desierto",
+      "vans-tunnel": "Minibús en carreteras de montaña",
+      "suv-kasbah": "SUV 4×4 frente a una kasbah",
+      "atlas-highway": "Carretera del Atlas desde el vehículo",
+      "mountain-pass": "Carretera sinuosa en el Alto Atlas",
+      "dades-gorges": "Gargantas del Dadès en minibús",
+      ouzoud: "Excursión a las cascadas de Ouzoud",
+      essaouira: "Traslado a Essaouira",
+      volubilis: "Circuito Volubilis",
+      "desert-oasis": "Oasis del Sahara",
+      "fes-tannery": "Traslado a Fez",
+      sunset: "Atardecer en Marruecos",
+    },
   },
   circuits: {
     eyebrow: "Circuitos de varios días",

@@ -54,6 +54,16 @@ export type Dictionary = {
     confirmation: string;
     documents: string;
   };
+  transfers: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    viewAll: string;
+    cta: string;
+    galleryTitle: string;
+    items: Record<string, { title: string; badge: string; description: string }>;
+    gallery: Record<string, string>;
+  };
   circuits: {
     eyebrow: string;
     title: string;

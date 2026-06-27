@@ -15,10 +15,11 @@ export function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
       <Image
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Desert_Merzouga_Morocco_Meditation.jpg/1920px-Desert_Merzouga_Morocco_Meditation.jpg"
+        src="/images/route-mountain-pass.png"
         alt={t.imageAlt}
         fill
         priority
+        unoptimized
         className="object-cover"
         sizes="100vw"
       />

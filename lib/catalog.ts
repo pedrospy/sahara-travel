@@ -23,31 +23,28 @@ export const circuitsCatalog = [
     reviews: 56,
     price: 1290,
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Desert_Merzouga_Morocco_Meditation.jpg/1280px-Desert_Merzouga_Morocco_Meditation.jpg",
+      "/images/dest-desert-oasis.png",
   },
   {
     id: "grand-tour-17",
     rating: 4.9,
     reviews: 38,
     price: 2190,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Chefchaouen_%2836081254503%29.jpg/1280px-Chefchaouen_%2836081254503%29.jpg",
+    image: "/images/dest-volubilis-site.png",
   },
   {
     id: "merzouga-3j",
     rating: 4.9,
     reviews: 142,
     price: 380,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Desert_Merzouga_Morocco_Meditation.jpg/1280px-Desert_Merzouga_Morocco_Meditation.jpg",
+    image: "/images/fleet-van-desert.png",
   },
   {
     id: "megdaz-3j",
     rating: 4.9,
     reviews: 31,
     price: 420,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Djebel_Ayachi%2C_Eastern_High_Atlas%2C_Morocco.jpg/1280px-Djebel_Ayachi%2C_Eastern_High_Atlas%2C_Morocco.jpg",
+    image: "/images/dest-dades-gorges.png",
   },
 ] as const;
 
@@ -57,33 +54,67 @@ export const excursionsCatalog = [
     rating: 4.9,
     reviews: 112,
     price: 80,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ouzoud_Falls%2C_Morocco%2C_20250126_1355_7465.jpg/1280px-Ouzoud_Falls%2C_Morocco%2C_20250126_1355_7465.jpg",
+    image: "/images/dest-ouzoud-falls.png",
   },
   {
     id: "essaouira",
     rating: 4.8,
     reviews: 103,
     price: 80,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Blue_Fishing_Boat_and_Medina_Walls%2C_Essaouira%2C_Morocco.jpg/1280px-Blue_Fishing_Boat_and_Medina_Walls%2C_Essaouira%2C_Morocco.jpg",
+    image: "/images/dest-essaouira-port.png",
   },
   {
     id: "ait-benhaddou",
     rating: 4.9,
     reviews: 87,
     price: 90,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg/1280px-Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg",
+    image: "/images/fleet-suv-kasbah.png",
   },
   {
     id: "ourika",
     rating: 4.8,
     reviews: 134,
     price: 72,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ourika_Valley%2C_Morocco_%285218373547%29.jpg/1280px-Ourika_Valley%2C_Morocco_%285218373547%29.jpg",
+    image: "/images/route-dades-gorges.png",
   },
+] as const;
+
+export const transfersCatalog = [
+  {
+    id: "airport",
+    price: 25,
+    image: "/images/route-atlas-highway.png",
+  },
+  {
+    id: "city",
+    price: 20,
+    image: "/images/fleet-suv-kasbah.png",
+  },
+  {
+    id: "intercity",
+    price: 80,
+    image: "/images/route-mountain-pass.png",
+  },
+  {
+    id: "group",
+    price: 120,
+    image: "/images/fleet-van-desert.png",
+  },
+] as const;
+
+export const galleryCatalog = [
+  { id: "van-desert", image: "/images/fleet-van-desert.png" },
+  { id: "vans-tunnel", image: "/images/fleet-vans-tunnel.png" },
+  { id: "suv-kasbah", image: "/images/fleet-suv-kasbah.png" },
+  { id: "atlas-highway", image: "/images/route-atlas-highway.png" },
+  { id: "mountain-pass", image: "/images/route-mountain-pass.png" },
+  { id: "dades-gorges", image: "/images/route-dades-gorges.png" },
+  { id: "ouzoud", image: "/images/dest-ouzoud-falls.png" },
+  { id: "essaouira", image: "/images/dest-essaouira-port.png" },
+  { id: "volubilis", image: "/images/dest-volubilis-arches.png" },
+  { id: "desert-oasis", image: "/images/dest-desert-oasis.png" },
+  { id: "fes-tannery", image: "/images/dest-fes-tannery.png" },
+  { id: "sunset", image: "/images/dest-sunset-lake.png" },
 ] as const;
 
 export const activitiesCatalog = [
@@ -101,50 +132,42 @@ export const destinationsCatalog = [
   {
     id: "marrakech",
     count: 20,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Jemaa_el-Fnaa_at_night.jpg/1280px-Jemaa_el-Fnaa_at_night.jpg",
+    image: "/images/fleet-suv-kasbah.png",
   },
   {
     id: "merzouga",
     count: 6,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Desert_Merzouga_Morocco_Meditation.jpg/1280px-Desert_Merzouga_Morocco_Meditation.jpg",
+    image: "/images/dest-desert-oasis.png",
   },
   {
     id: "chefchaouen",
     count: 5,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Chefchaouen_%2836081254503%29.jpg/1280px-Chefchaouen_%2836081254503%29.jpg",
+    image: "/images/dest-cape-spartel.png",
   },
   {
     id: "fes",
     count: 5,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Fes_Medina.jpg/1280px-Fes_Medina.jpg",
+    image: "/images/dest-fes-tannery.png",
   },
   {
     id: "essaouira",
     count: 5,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Blue_Fishing_Boat_and_Medina_Walls%2C_Essaouira%2C_Morocco.jpg/1280px-Blue_Fishing_Boat_and_Medina_Walls%2C_Essaouira%2C_Morocco.jpg",
+    image: "/images/dest-essaouira-port.png",
   },
   {
     id: "megdaz",
     count: 3,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Djebel_Ayachi%2C_Eastern_High_Atlas%2C_Morocco.jpg/1280px-Djebel_Ayachi%2C_Eastern_High_Atlas%2C_Morocco.jpg",
+    image: "/images/dest-dades-gorges.png",
   },
   {
     id: "agadir",
     count: 2,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Agadir_beach.jpg/1280px-Agadir_beach.jpg",
+    image: "/images/dest-sunset-lake.png",
   },
   {
     id: "ouarzazate",
     count: 8,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kasbah_Taourirt_in_Ouarzazate_2011.jpg/1280px-Kasbah_Taourirt_in_Ouarzazate_2011.jpg",
+    image: "/images/dest-volubilis-mosaic.png",
   },
 ] as const;
 
