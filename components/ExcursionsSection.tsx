@@ -47,6 +47,23 @@ export function ExcursionsSection() {
               >
                 <Link href={`/${locale}/excursions/${excursion.slug}`}>
                 <div className="relative aspect-[4/3] overflow-hidden">
+                  {"images" in excursion && excursion.images ? (
+                    <div className="grid h-full w-full grid-cols-2 grid-rows-2">
+                      {excursion.images.map((src, idx) => (
+                        <div key={src} className="relative overflow-hidden">
+                          <Image
+                            src={src}
+                            alt={idx === 0 ? content.title : ""}
+                            fill
+                            unoptimized
+                            className="object-cover transition duration-500 group-hover:scale-110"
+                            sizes="(max-width: 768px) 50vw, 12vw"
+                            aria-hidden={idx > 0}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
                   <Image
                     src={excursion.image}
                     alt={content.title}
@@ -55,6 +72,7 @@ export function ExcursionsSection() {
                     className="object-cover transition duration-500 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, 25vw"
                   />
+                  )}
                   <div className="absolute left-0 top-0 h-1 w-full bg-gold-gradient" />
                   <span className="absolute left-3 top-4 bg-oasis px-2.5 py-1 text-xs font-semibold text-white">
                     {content.badge}

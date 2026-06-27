@@ -88,7 +88,13 @@ export const excursionsCatalog = [
     rating: 4.8,
     reviews: 134,
     price: 72,
-    image: "/images/dest-dades-gorges.png",
+    image: "/images/dest-ourika-valley.jpg",
+    images: [
+      "/images/dest-ourika-valley.jpg",
+      "/images/dest-ourika-waterfall.jpg",
+      "/images/dest-ourika-river.jpg",
+      "/images/dest-ourika-argan.jpg",
+    ],
   },
 ] as const;
 
@@ -123,6 +129,7 @@ export const galleryCatalog = [
   { id: "mountain-pass", image: "/images/route-mountain-pass.png" },
   { id: "dades-gorges", image: "/images/route-dades-gorges.png" },
   { id: "ouzoud", image: "/images/dest-ouzoud-falls.png" },
+  { id: "ourika", image: "/images/dest-ourika-valley.jpg" },
   { id: "essaouira", image: "/images/dest-essaouira-port.png" },
   { id: "volubilis", image: "/images/dest-volubilis-arches.png" },
   { id: "desert-oasis", image: "/images/dest-desert-oasis.png" },

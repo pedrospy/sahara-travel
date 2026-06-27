@@ -105,6 +105,7 @@ export const fr: Dictionary = {
       "mountain-pass": "Route sinueuse dans le Haut Atlas",
       "dades-gorges": "Gorges du Dadès en minibus",
       ouzoud: "Excursion aux cascades d'Ouzoud",
+      ourika: "Excursion vallée de l'Ourika & cascades",
       essaouira: "Transfert vers Essaouira",
       volubilis: "Circuit Volubilis",
       "desert-oasis": "Oasis du Sahara",
