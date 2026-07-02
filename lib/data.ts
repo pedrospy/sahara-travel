@@ -43,8 +43,8 @@ export const circuits = [
       "Circuit 3 jours de Marrakech à Chefchaouen : Casablanca, Rabat, Fès la ville traditionnelle et les ruelles bleues de Chefchaouen.",
     rating: 4.9,
     reviews: 38,
-    price: 290,
-    image: "/images/circuit-chefchaouen-alt.jpg",
+    price: 300,
+    image: "/images/dest-chefchaouen.jpg",
   },
   {
     id: "merzouga-3j",
@@ -107,9 +107,8 @@ export const excursions = [
       "Kasbah UNESCO d'Aït Benhaddou, studios Atlas, vues sur l'Atlas.",
     rating: 4.9,
     reviews: 87,
-    price: 90,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg/1280px-Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg",
+    price: 300,
+    image: "/images/dest-ait-benhaddou.jpg",
   },
   {
     id: "ourika",
@@ -186,8 +185,7 @@ export const destinations = [
   {
     name: "Ouarzazate",
     count: 8,
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kasbah_Taourirt_in_Ouarzazate_2011.jpg/1280px-Kasbah_Taourirt_in_Ouarzazate_2011.jpg",
+    image: "/images/dest-ouarzazate.jpg",
   },
 ];
 

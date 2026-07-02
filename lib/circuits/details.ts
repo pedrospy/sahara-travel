@@ -182,11 +182,11 @@ export const circuitDetails: ExperienceDetailsByLocale<CircuitId> = {
         "Pourboires guide et personnel d'hébergement",
       ],
       groupPricing: [
-        { travelers: "2 voyageurs", price: "290 €/pers." },
-        { travelers: "3–4 voyageurs", price: "290 €/pers." },
-        { travelers: "5–7 voyageurs", price: "290 €/pers." },
-        { travelers: "8–14 voyageurs", price: "290 €/pers." },
-        { travelers: "15–17 voyageurs", price: "290 €/pers." },
+        { travelers: "2 voyageurs", price: "300 €/pers." },
+        { travelers: "3–4 voyageurs", price: "300 €/pers." },
+        { travelers: "5–7 voyageurs", price: "300 €/pers." },
+        { travelers: "8–14 voyageurs", price: "300 €/pers." },
+        { travelers: "15–17 voyageurs", price: "300 €/pers." },
       ],
       faqs: [
         {
@@ -610,11 +610,11 @@ export const circuitDetails: ExperienceDetailsByLocale<CircuitId> = {
         "Tips for guide and hotel staff",
       ],
       groupPricing: [
-        { travelers: "2 travelers", price: "€290/person" },
-        { travelers: "3–4 travelers", price: "€290/person" },
-        { travelers: "5–7 travelers", price: "€290/person" },
-        { travelers: "8–14 travelers", price: "€290/person" },
-        { travelers: "15–17 travelers", price: "€290/person" },
+        { travelers: "2 travelers", price: "€300/person" },
+        { travelers: "3–4 travelers", price: "€300/person" },
+        { travelers: "5–7 travelers", price: "€300/person" },
+        { travelers: "8–14 travelers", price: "€300/person" },
+        { travelers: "15–17 travelers", price: "€300/person" },
       ],
       faqs: [
         {
@@ -1035,11 +1035,11 @@ export const circuitDetails: ExperienceDetailsByLocale<CircuitId> = {
         "Propinas para guía y personal del alojamiento",
       ],
       groupPricing: [
-        { travelers: "2 viajeros", price: "290 €/pers." },
-        { travelers: "3–4 viajeros", price: "290 €/pers." },
-        { travelers: "5–7 viajeros", price: "290 €/pers." },
-        { travelers: "8–14 viajeros", price: "290 €/pers." },
-        { travelers: "15–17 viajeros", price: "290 €/pers." },
+        { travelers: "2 viajeros", price: "300 €/pers." },
+        { travelers: "3–4 viajeros", price: "300 €/pers." },
+        { travelers: "5–7 viajeros", price: "300 €/pers." },
+        { travelers: "8–14 viajeros", price: "300 €/pers." },
+        { travelers: "15–17 viajeros", price: "300 €/pers." },
       ],
       faqs: [
         {
@@ -1460,11 +1460,11 @@ export const circuitDetails: ExperienceDetailsByLocale<CircuitId> = {
         "Trinkgelder für Guide und Hotelpersonal",
       ],
       groupPricing: [
-        { travelers: "2 Reisende", price: "290 €/Pers." },
-        { travelers: "3–4 Reisende", price: "290 €/Pers." },
-        { travelers: "5–7 Reisende", price: "290 €/Pers." },
-        { travelers: "8–14 Reisende", price: "290 €/Pers." },
-        { travelers: "15–17 Reisende", price: "290 €/Pers." },
+        { travelers: "2 Reisende", price: "300 €/Pers." },
+        { travelers: "3–4 Reisende", price: "300 €/Pers." },
+        { travelers: "5–7 Reisende", price: "300 €/Pers." },
+        { travelers: "8–14 Reisende", price: "300 €/Pers." },
+        { travelers: "15–17 Reisende", price: "300 €/Pers." },
       ],
       faqs: [
         {

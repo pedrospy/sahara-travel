@@ -51,7 +51,7 @@ export const circuitsCatalog = [
     image: "/images/dest-desert-oasis.png",
     images: [
       "/images/dest-marrakech-jemaa.jpg",
-      "/images/fleet-suv-kasbah.png",
+      "/images/dest-ait-benhaddou.jpg",
       "/images/dest-merzouga-dunes.jpg",
       "/images/route-mountain-pass.png",
     ],
@@ -62,13 +62,13 @@ export const circuitsCatalog = [
     slug: "marrakech-chefchaouen-3-days",
     rating: 4.9,
     reviews: 38,
-    price: 290,
-    image: "/images/circuit-chefchaouen-alt.jpg",
+    price: 300,
+    image: "/images/dest-chefchaouen.jpg",
     images: [
       "/images/circuit-marrakech-koutoubia.jpg",
       "/images/circuit-casablanca-mosque.jpg",
       "/images/circuit-fes-tannery.jpg",
-      "/images/circuit-chefchaouen-alt.jpg",
+      "/images/dest-chefchaouen.jpg",
     ],
   },
   {
@@ -112,8 +112,15 @@ export const excursionsCatalog = [
     slug: "ait-benhaddou-ouarzazate-unesco-day-trip",
     rating: 4.9,
     reviews: 87,
-    price: 19,
-    image: "/images/fleet-suv-kasbah.png",
+    price: 300,
+    flatPrice: true,
+    image: "/images/dest-ait-benhaddou.jpg",
+    images: [
+      "/images/dest-ait-benhaddou.jpg",
+      "/images/dest-ouarzazate.jpg",
+      "/images/route-tizi-ntichka.jpg",
+      "/images/dest-ait-benhaddou-camels.jpg",
+    ],
   },
   {
     id: "ourika",
