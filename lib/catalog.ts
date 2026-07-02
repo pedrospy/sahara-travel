@@ -95,7 +95,8 @@ export const excursionsCatalog = [
     slug: "cascades-ouzoud-day-trip",
     rating: 4.9,
     reviews: 112,
-    price: 14,
+    price: 150,
+    flatPrice: true,
     image: "/images/dest-ouzoud-falls.png",
   },
   {

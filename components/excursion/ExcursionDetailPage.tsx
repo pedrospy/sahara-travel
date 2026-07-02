@@ -10,6 +10,7 @@ type Props = {
     rating: number;
     reviews: number;
     price: number;
+    flatPrice?: boolean;
     image: string;
   };
   detail: ExcursionDetailContent;

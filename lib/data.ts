@@ -84,7 +84,7 @@ export const excursions = [
       "Les plus grandes cascades du Maroc (110m), singes magots en liberté, déjeuner face aux chutes.",
     rating: 4.9,
     reviews: 112,
-    price: 80,
+    price: 150,
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ouzoud_Falls%2C_Morocco%2C_20250126_1355_7465.jpg/1280px-Ouzoud_Falls%2C_Morocco%2C_20250126_1355_7465.jpg",
   },

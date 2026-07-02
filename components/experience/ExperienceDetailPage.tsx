@@ -25,6 +25,7 @@ type CatalogItem = {
   rating: number;
   reviews: number;
   price: number;
+  flatPrice?: boolean;
   image: string;
   images?: readonly string[];
 };
@@ -255,11 +256,15 @@ export function ExperienceDetailPage({
               <p className="text-xs uppercase tracking-wider text-midnight/50">{t.from}</p>
               <p className={`font-display text-4xl font-bold ${textClasses?.price ?? "text-midnight"}`}>
                 {formatPrice(item.price, locale)}
-                <span className="text-base font-normal text-midnight/50">{t.perPerson}</span>
+                {!item.flatPrice ? (
+                  <span className="text-base font-normal text-midnight/50">{t.perPerson}</span>
+                ) : null}
               </p>
-              <p className="mt-1 text-sm text-midnight/50">
-                {formatPrice(item.price * 2, locale)} {t.totalFor2}
-              </p>
+              {!item.flatPrice ? (
+                <p className="mt-1 text-sm text-midnight/50">
+                  {formatPrice(item.price * 2, locale)} {t.totalFor2}
+                </p>
+              ) : null}
 
               <div className="mt-6 space-y-3 border-t border-sand-200 pt-6 text-sm">
                 <div className="flex justify-between">

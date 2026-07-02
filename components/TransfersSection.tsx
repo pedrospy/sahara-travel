@@ -10,7 +10,7 @@ import {
   fleetCatalog,
   getWhatsAppUrl,
 } from "@/lib/catalog";
-import { formatPrice, useDictionary, useLocale } from "@/lib/i18n/locale-context";
+import { useDictionary } from "@/lib/i18n/locale-context";
 import { SectionArabic } from "@/components/ArabicCalligraphy";
 import {
   TransportLineIcon,
@@ -21,7 +21,6 @@ const featureIcons = [Snowflake, Languages, Baby, Shield];
 
 export function TransfersSection() {
   const dict = useDictionary();
-  const { locale } = useLocale();
   const t = dict.transfers;
 
   return (
@@ -137,11 +136,7 @@ export function TransfersSection() {
                   <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-sand-200/75">
                     {content.description}
                   </p>
-                  <div className="mt-4 flex items-center justify-between border-t border-gold/15 pt-4">
-                    <p className="font-display text-lg font-bold text-white">
-                      {dict.common.from}{" "}
-                      {formatPrice(transfer.price, locale)}
-                    </p>
+                  <div className="mt-4 flex items-center justify-end border-t border-gold/15 pt-4">
                     <a
                       href={getWhatsAppUrl(
                         `${dict.common.whatsappMessage}${content.title}`
